@@ -1,0 +1,12 @@
+select * from users
+
+insert into test values('223','4t5qw45','w34')
+
+alter table test add  col_new varchar2(30);
+
+create table users (
+id number,
+	 user_name varchar(30),
+ address varchar (40),
+ email varchar(30)
+		)
