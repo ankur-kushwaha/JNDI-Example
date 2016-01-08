@@ -7,7 +7,7 @@ An annotation based xml free SPRING MVC base with JNDI to connect to database an
   
   1. Tomcat Setting
       1. Add the below entry in Tomcat context.xml
-          <Resource name="jdbc/B0093983"
+          <code><Resource name="jdbc/B0093983"
               auth="Container"
               type="javax.sql.DataSource"
               username=""
@@ -21,7 +21,7 @@ An annotation based xml free SPRING MVC base with JNDI to connect to database an
               maxAge="7200000"
               testOnBorrow="true"
               validationQuery="select 1 from dual"
-              /> 
+              /></code> 
               
       2. Drop the Driver jar in Tomcat lib directory "jdbc/B0093983"
       
